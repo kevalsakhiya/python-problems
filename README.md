@@ -47,7 +47,7 @@ import math
 
 a = [1,3,4,5,2]
 b = []
-def build_list(a):
+def problem_1(a):
 	for i in range(math.ceil(len(a)/2)):
 		if i==0:
 			b.append(a[i])
