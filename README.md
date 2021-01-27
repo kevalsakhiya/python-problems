@@ -39,3 +39,24 @@ Input/Output
     [output] boolean
 
     A boolean representing whether the new array b will be sorted in strictly ascending order or not.
+
+
+**solution_1**
+
+import math
+
+a = [1,3,4,5,2]
+b = []
+def build_list(a):
+	for i in range(math.ceil(len(a)/2)):
+		if i==0:
+			b.append(a[i])
+		else:
+			b.append(a[-i])
+			b.append(a[i])
+	if len(a)%2==0:
+		b.append(a[math.ceil(len(a)/2)])
+	if sorted(b)==b:
+		return True
+	else:
+		return False
