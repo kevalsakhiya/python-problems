@@ -42,7 +42,7 @@ Input/Output
 
 
 **solution_1**
-
+```
 import math
 
 a = [1,3,4,5,2]
@@ -60,3 +60,4 @@ def build_list(a):
 		return True
 	else:
 		return False
+```
