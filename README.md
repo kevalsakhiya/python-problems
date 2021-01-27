@@ -26,8 +26,6 @@ Example
 
 Input/Output
 
-    [execution time limit] 4 seconds (py3)
-
     [input] array.integer a
 
     The given array of integers.
